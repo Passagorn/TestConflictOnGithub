@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace TestConflict.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller //#1
     {
         public ActionResult Index()
         {

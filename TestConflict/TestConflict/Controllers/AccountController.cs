@@ -15,7 +15,7 @@ namespace TestConflict.Controllers
 {
     [Authorize]
     [InitializeSimpleMembership]
-    public class AccountController : Controller
+    public class AccountController : Controller //#1
     {
         //
         // GET: /Account/Login
