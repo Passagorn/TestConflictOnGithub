@@ -28,7 +28,7 @@ namespace TestConflict.Controllers
         }
 
         //
-        // POST: /Account/Login
+        // #1 POST: /Account/Login
 
         [HttpPost]
         [AllowAnonymous]
@@ -46,7 +46,7 @@ namespace TestConflict.Controllers
         }
 
         //
-        // POST: /Account/LogOff
+        // #1 POST: /Account/LogOff
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -58,7 +58,7 @@ namespace TestConflict.Controllers
         }
 
         //
-        // GET: /Account/Register
+        // #1 GET: /Account/Register
 
         [AllowAnonymous]
         public ActionResult Register()
@@ -67,7 +67,7 @@ namespace TestConflict.Controllers
         }
 
         //
-        // POST: /Account/Register
+        // #1 POST: /Account/Register
 
         [HttpPost]
         [AllowAnonymous]
@@ -94,7 +94,7 @@ namespace TestConflict.Controllers
         }
 
         //
-        // POST: /Account/Disassociate
+        // #1 POST: /Account/Disassociate
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -123,7 +123,7 @@ namespace TestConflict.Controllers
         }
 
         //
-        // GET: /Account/Manage
+        // #1 GET: /Account/Manage
 
         public ActionResult Manage(ManageMessageId? message)
         {
@@ -138,7 +138,7 @@ namespace TestConflict.Controllers
         }
 
         //
-        // POST: /Account/Manage
+        // #1 POST: /Account/Manage
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -201,7 +201,7 @@ namespace TestConflict.Controllers
         }
 
         //
-        // POST: /Account/ExternalLogin
+        // #1 POST: /Account/ExternalLogin
 
         [HttpPost]
         [AllowAnonymous]
@@ -212,7 +212,7 @@ namespace TestConflict.Controllers
         }
 
         //
-        // GET: /Account/ExternalLoginCallback
+        // #1 GET: /Account/ExternalLoginCallback
 
         [AllowAnonymous]
         public ActionResult ExternalLoginCallback(string returnUrl)
@@ -245,7 +245,7 @@ namespace TestConflict.Controllers
         }
 
         //
-        // POST: /Account/ExternalLoginConfirmation
+        // #1 POST: /Account/ExternalLoginConfirmation
 
         [HttpPost]
         [AllowAnonymous]
