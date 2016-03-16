@@ -18,7 +18,7 @@ namespace TestConflict.Controllers
     public class AccountController : Controller //#1
     {
         //
-        // GET: /Account/Login
+        // #1 GET: /Account/Login
 
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
