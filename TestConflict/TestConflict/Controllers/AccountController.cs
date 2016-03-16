@@ -15,10 +15,10 @@ namespace TestConflict.Controllers
 {
     [Authorize]
     [InitializeSimpleMembership]
-    public class AccountController : Controller //#1
+    public class AccountController : Controller //#1 #1
     {
         //
-        // #1 GET: /Account/Login
+        // #1 #1 GET: /Account/Login
 
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
